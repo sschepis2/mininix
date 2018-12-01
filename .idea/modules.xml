@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/development-mininix.iml" filepath="$PROJECT_DIR$/development-mininix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/emulatorview/emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/emulatorview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/intents/intents.iml" filepath="$PROJECT_DIR$/samples/intents/intents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libtermexec/libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/libtermexec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mininix.iml" filepath="$PROJECT_DIR$/mininix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/emulatorview/mininix-emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/mininix-emulatorview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libtermexec/mininix-libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/mininix-libtermexec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/mininix-samples.iml" filepath="$PROJECT_DIR$/samples/mininix-samples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/term/mininix-term.iml" filepath="$PROJECT_DIR$/term/mininix-term.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" filepath="$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/telnet/telnet.iml" filepath="$PROJECT_DIR$/samples/telnet/telnet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" />
     </modules>
   </component>
 </project>
