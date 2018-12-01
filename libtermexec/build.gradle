@@ -50,7 +50,7 @@ android {
     }
     externalNativeBuild {
         ndkBuild {
-            path file('../../../../Development/mininix-master/emulatorview/src/main/jni/Application.mk')
+            path file('../../../../Development/mininix/emulatorview/src/main/jni/Application.mk')
         }
     }
 }
