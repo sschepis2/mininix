@@ -13,9 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/term/mininix-term.iml" filepath="$PROJECT_DIR$/term/mininix-term.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" filepath="$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/intents/samples-intents.iml" filepath="$PROJECT_DIR$/samples/intents/samples-intents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/pathbroadcasts/samples-pathbroadcasts.iml" filepath="$PROJECT_DIR$/samples/pathbroadcasts/samples-pathbroadcasts.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/telnet/samples-telnet.iml" filepath="$PROJECT_DIR$/samples/telnet/samples-telnet.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/telnet/telnet.iml" filepath="$PROJECT_DIR$/samples/telnet/telnet.iml" />
       <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" />
     </modules>

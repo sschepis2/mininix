@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "linuxdroid.androidterm.sample.pathbroadcasts"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 28
 
         ndk {
             moduleName "libmininix-androidterm4"
