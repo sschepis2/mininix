@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mininix.iml" filepath="$PROJECT_DIR$/mininix.iml" />
+      <module fileurl="file://$USER_HOME$/media/development/mininix-master/development-mininix-master.iml" filepath="$USER_HOME$/media/development/mininix-master/development-mininix-master.iml" />
+      <module fileurl="file://$USER_HOME$/media/development/mininix-master/emulatorview/mininix-master-emulatorview.iml" filepath="$USER_HOME$/media/development/mininix-master/emulatorview/mininix-master-emulatorview.iml" />
+      <module fileurl="file://$USER_HOME$/media/development/mininix-master/libtermexec/mininix-master-libtermexec.iml" filepath="$USER_HOME$/media/development/mininix-master/libtermexec/mininix-master-libtermexec.iml" />
+      <module fileurl="file://$USER_HOME$/media/development/mininix-master/samples/mininix-master-samples.iml" filepath="$USER_HOME$/media/development/mininix-master/samples/mininix-master-samples.iml" />
+      <module fileurl="file://$USER_HOME$/media/development/mininix-master/term/mininix-master-term.iml" filepath="$USER_HOME$/media/development/mininix-master/term/mininix-master-term.iml" />
+      <module fileurl="file://$USER_HOME$/media/development/mininix-master/samples/intents/samples-intents.iml" filepath="$USER_HOME$/media/development/mininix-master/samples/intents/samples-intents.iml" />
+      <module fileurl="file://$USER_HOME$/media/development/mininix-master/samples/pathbroadcasts/samples-pathbroadcasts.iml" filepath="$USER_HOME$/media/development/mininix-master/samples/pathbroadcasts/samples-pathbroadcasts.iml" />
+      <module fileurl="file://$USER_HOME$/media/development/mininix-master/samples/telnet/samples-telnet.iml" filepath="$USER_HOME$/media/development/mininix-master/samples/telnet/samples-telnet.iml" />
     </modules>
   </component>
 </project>

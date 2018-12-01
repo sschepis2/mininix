@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package linuxdroid.androidterm;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 
-import jackpal.androidterm.emulatorview.ColorScheme;
-import jackpal.androidterm.emulatorview.EmulatorView;
-import jackpal.androidterm.emulatorview.TermSession;
+import linuxdroid.androidterm.emulatorview.ColorScheme;
+import linuxdroid.androidterm.emulatorview.EmulatorView;
+import linuxdroid.androidterm.emulatorview.TermSession;
 
-import jackpal.androidterm.util.TermSettings;
+import linuxdroid.androidterm.util.TermSettings;
 
 public class TermView extends EmulatorView {
     public TermView(Context context, TermSession session, DisplayMetrics metrics) {

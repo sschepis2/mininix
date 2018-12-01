@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.emulatorview.compat;
+package linuxdroid.androidterm.emulatorview.compat;
 
 /**
  * Based upon

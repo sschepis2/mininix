@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.util;
+package linuxdroid.androidterm.util;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Collection;
 
-import jackpal.androidterm.emulatorview.TermSession;
-import jackpal.androidterm.emulatorview.UpdateCallback;
+import linuxdroid.androidterm.emulatorview.TermSession;
+import linuxdroid.androidterm.emulatorview.UpdateCallback;
 
 /**
  * An ArrayList of TermSessions which allows users to register callbacks in

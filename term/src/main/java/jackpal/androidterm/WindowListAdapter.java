@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package linuxdroid.androidterm;
 
 import android.app.Activity;
 import android.content.Context;
@@ -24,10 +24,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import jackpal.androidterm.emulatorview.TermSession;
-import jackpal.androidterm.emulatorview.UpdateCallback;
+import linuxdroid.androidterm.emulatorview.TermSession;
+import linuxdroid.androidterm.emulatorview.UpdateCallback;
 
-import jackpal.androidterm.util.SessionList;
+import linuxdroid.androidterm.util.SessionList;
 
 public class WindowListAdapter extends BaseAdapter implements UpdateCallback {
     private SessionList mSessions;

@@ -1,16 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 28
 
     defaultConfig {
-        applicationId "jackpal.androidterm.sample.telnet"
-        minSdkVersion 4
-        targetSdkVersion 22
+        applicationId "linuxdroid.mininix.sample.telnet"
+        minSdkVersion 16
+        targetSdkVersion 27
 
         ndk {
-            moduleName "libjackpal-androidterm4"
+            moduleName "libmininix-androidterm4"
             ldLibs "log"
         }
     }
@@ -21,8 +20,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    externalNativeBuild {
+        ndkBuild {
+            path file('../../../../../Development/mininix-master/emulatorview/src/main/jni/Application.mk')
+        }
+    }
 }
 
 dependencies {
-    compile project(':emulatorview')
+    implementation project(':emulatorview')
 }

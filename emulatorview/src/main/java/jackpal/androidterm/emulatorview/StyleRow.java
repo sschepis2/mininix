@@ -1,4 +1,4 @@
-package jackpal.androidterm.emulatorview;
+package linuxdroid.androidterm.emulatorview;
 
 /**
  * Utility class for dealing with text style lines.

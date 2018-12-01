@@ -1,4 +1,4 @@
-package jackpal.androidterm.emulatorview.compat;
+package linuxdroid.androidterm.emulatorview.compat;
 
 import android.content.Context;
 import android.text.ClipboardManager;

@@ -1,30 +1,38 @@
 buildscript {
     repositories {
         jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.android.tools.build:gradle:3.2.1'
     }
 }
 apply plugin: 'com.android.library'
 
 repositories {
     jcenter()
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
 }
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 4
-        targetSdkVersion 22
+        minSdkVersion 16
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
 
         ndk {
-            moduleName 'libjackpal-termexec2'
-            abiFilters 'all'
+            moduleName 'libmininix.-termexec2'
+            abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86', 'x86_64'
             ldLibs 'log', 'c'
         }
     }
@@ -40,6 +48,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    externalNativeBuild {
+        ndkBuild {
+            path file('../../../../Development/mininix-master/emulatorview/src/main/jni/Application.mk')
+        }
+    }
 }
 
 // by default recent plugin version does not copy any AIDL files "to avoid publishing too much"
@@ -53,7 +66,7 @@ android.libraryVariants.all { variant ->
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile 'com.android.support:support-annotations:21.0.0'
+    implementation 'com.android.support:support-annotations:21.0.0'
 }

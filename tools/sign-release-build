@@ -8,7 +8,7 @@
 # of Terminal Emulator for Android.
 set -e
 
-ANDROID_TERMINAL_EMULATOR_KEYSTORE="$HOME/Documents/workspace/keystore/jackpal.keystore"
+ANDROID_TERMINAL_EMULATOR_KEYSTORE="$HOME/Documents/workspace/keystore/linuxdroid.keystore"
 
 ZIPALIGN="/Users/jack/Library/Android/sdk/build-tools/21.1.2/zipalign"
 
@@ -37,7 +37,7 @@ cd "$APKDIR"
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 \
   -keystore "$ANDROID_TERMINAL_EMULATOR_KEYSTORE" \
   -signedjar term-release-signed.apk \
-  term-release-unsigned.apk jackpal.keystore
+  term-release-unsigned.apk linuxdroid.keystore
 
 # Verify signature
 # jarsigner -verify -verbose -certs term-release-signed.apk

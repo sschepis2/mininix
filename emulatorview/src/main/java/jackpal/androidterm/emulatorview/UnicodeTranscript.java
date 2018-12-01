@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.emulatorview;
+package linuxdroid.androidterm.emulatorview;
 
 import android.util.Log;
 
-import jackpal.androidterm.emulatorview.compat.AndroidCharacterCompat;
-import jackpal.androidterm.emulatorview.compat.AndroidCompat;
+import linuxdroid.androidterm.emulatorview.compat.AndroidCharacterCompat;
+import linuxdroid.androidterm.emulatorview.compat.AndroidCompat;
 
 /**
  * A backing store for a TranscriptScreen.

@@ -14,11 +14,11 @@ fi
 
 ADB="$ANDROID_SDK_ROOT/platform-tools/adb"
 
-$ADB uninstall jackpal.androidterm.sample.intents
+$ADB uninstall linuxdroid.androidterm.sample.intents
 $ADB install -r samples/intents/build/outputs/apk/intents-debug.apk
 
-$ADB uninstall jackpal.androidterm.sample.pathbroadcasts
+$ADB uninstall linuxdroid.androidterm.sample.pathbroadcasts
 $ADB install -r samples/pathbroadcasts/build/outputs/apk/pathbroadcasts-debug.apk
 
-$ADB uninstall jackpal.androidterm.sample.telnet
+$ADB uninstall linuxdroid.androidterm.sample.telnet
 $ADB install -r samples/telnet/build/outputs/apk/telnet-debug.apk

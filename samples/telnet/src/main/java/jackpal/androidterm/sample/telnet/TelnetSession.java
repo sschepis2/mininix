@@ -1,4 +1,4 @@
-package jackpal.androidterm.sample.telnet;
+package linuxdroid.androidterm.sample.telnet;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import android.util.Log;
 
-import jackpal.androidterm.emulatorview.TermSession;
+import linuxdroid.androidterm.emulatorview.TermSession;
 
 /**
  * A rudimentary Telnet client implemented as a subclass of TermSession.

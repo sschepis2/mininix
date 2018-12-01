@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package linuxdroid.androidterm;
 
 import android.os.Handler;
 import android.os.Message;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
-import jackpal.androidterm.compat.FileCompat;
-import jackpal.androidterm.util.TermSettings;
+import linuxdroid.androidterm.compat.FileCompat;
+import linuxdroid.androidterm.util.TermSettings;
 
 import java.io.*;
 import java.util.ArrayList;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.emulatorview;
+package linuxdroid.androidterm.emulatorview;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package linuxdroid.androidterm;
 
+import android.app.NotificationManager;
 import android.app.Service;
+import android.content.Context;
 import android.content.IntentSender;
 import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
@@ -31,12 +33,12 @@ import android.util.Log;
 import android.app.Notification;
 import android.app.PendingIntent;
 
-import jackpal.androidterm.emulatorview.TermSession;
+import linuxdroid.androidterm.emulatorview.TermSession;
 
-import jackpal.androidterm.compat.ServiceForegroundCompat;
-import jackpal.androidterm.libtermexec.v1.*;
-import jackpal.androidterm.util.SessionList;
-import jackpal.androidterm.util.TermSettings;
+import linuxdroid.androidterm.compat.ServiceForegroundCompat;
+import linuxdroid.androidterm.libtermexec.v1.*;
+import linuxdroid.androidterm.util.SessionList;
+import linuxdroid.androidterm.util.TermSettings;
 
 import java.util.UUID;
 
@@ -99,7 +101,8 @@ public class TermService extends Service implements TermSession.FinishCallback
         Intent notifyIntent = new Intent(this, Term.class);
         notifyIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notifyIntent, 0);
-        notification.setLatestEventInfo(this, getText(R.string.application_terminal), getText(R.string.service_notify_text), pendingIntent);
+        //notification.setLatestEventInfo(this, getText(R.string.application_terminal), getText(R.string.service_notify_text), pendingIntent);
+        notif(this,getText(R.string.application_terminal).toString(), getText(R.string.service_notify_text).toString(), pendingIntent);
         compat.startForeground(RUNNING_NOTIFICATION, notification);
 
         Log.d(TermDebug.LOG_TAG, "TermService started");
@@ -215,5 +218,32 @@ public class TermService extends Service implements TermSession.FinishCallback
 
             mTermSessions.remove(session);
         }
+    }
+    void notif(Context ctx,String title, String content, PendingIntent pendingIntent){
+        //notification.setLatestEventInfo(this, getText(R.string.application_terminal), getText(R.string.service_notify_text), pendingIntent);
+
+        NotificationManager manager;
+        Notification myNotication;
+
+        manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+
+        Intent intent = new Intent("com.rj.notitfications.SECACTIVITY");
+
+
+        Notification.Builder builder = new Notification.Builder(ctx);
+
+        builder.setAutoCancel(false);
+        builder.setTicker("this is ticker text");
+        builder.setContentTitle(title);
+        builder.setContentText(content);
+        builder.setSmallIcon(R.drawable.ic_launcher);
+        builder.setContentIntent(pendingIntent);
+        builder.setOngoing(true);
+        //builder.setSubText("This is subtext...");   //API level 16
+        builder.setNumber(100);
+        builder.build();
+
+        myNotication = builder.getNotification();
+        manager.notify(11, myNotication);
     }
 }

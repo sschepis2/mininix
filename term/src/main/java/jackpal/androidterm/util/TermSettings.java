@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.util;
+package linuxdroid.androidterm.util;
 
-import jackpal.androidterm.R;
-import jackpal.androidterm.compat.AndroidCompat;
+import linuxdroid.androidterm.R;
+import linuxdroid.androidterm.compat.AndroidCompat;
 
 import android.content.SharedPreferences;
 import android.content.res.Resources;

@@ -14,5 +14,5 @@ fi
 
 ADB="$ANDROID_SDK_ROOT/platform-tools/adb"
 
-$ADB uninstall jackpal.androidterm
-$ADB install -r term/build/outputs/apk/term-debug.apk && $ADB shell am start -n jackpal.androidterm/jackpal.androidterm.Term
+$ADB uninstall linuxdroid.androidterm
+$ADB install -r term/build/outputs/apk/term-debug.apk && $ADB shell am start -n linuxdroid.androidterm/linuxdroid.androidterm.Term

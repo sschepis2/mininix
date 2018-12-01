@@ -1,7 +1,7 @@
-package jackpal.androidterm.emulatorview;
+package linuxdroid.androidterm.emulatorview;
 
-import jackpal.androidterm.emulatorview.compat.AndroidCompat;
-import jackpal.androidterm.emulatorview.compat.KeyCharacterMapCompat;
+import linuxdroid.androidterm.emulatorview.compat.AndroidCompat;
+import linuxdroid.androidterm.emulatorview.compat.KeyCharacterMapCompat;
 
 import java.io.IOException;
 import java.util.Map;
@@ -10,7 +10,7 @@ import java.util.HashMap;
 import android.util.Log;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
-import static jackpal.androidterm.emulatorview.compat.KeycodeConstants.*;
+import static linuxdroid.androidterm.emulatorview.compat.KeycodeConstants.*;
 
 /**
  * An ASCII key listener. Supports control characters and escape. Keeps track of

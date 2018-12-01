@@ -1,4 +1,4 @@
-package jackpal.androidterm.sample.intents;
+package linuxdroid.androidterm.sample.intents;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -23,7 +23,7 @@ public class IntentSampleActivity extends Activity
             public void onClick(View v) {
                 // Intent for opening a new window without providing script
                 Intent intent =
-                        new Intent("jackpal.androidterm.OPEN_NEW_WINDOW");
+                        new Intent("linuxdroid.androidterm.OPEN_NEW_WINDOW");
                 intent.addCategory(Intent.CATEGORY_DEFAULT);
                 startActivity(intent);
             }});
@@ -34,13 +34,13 @@ public class IntentSampleActivity extends Activity
             public void onClick(View v) {
                 /* Intent for opening a new window and running the provided
                    script -- you must declare the permission
-                   jackpal.androidterm.permission.RUN_SCRIPT in your manifest
+                   linuxdroid.androidterm.permission.RUN_SCRIPT in your manifest
                    to use */
                 Intent intent =
-                        new Intent("jackpal.androidterm.RUN_SCRIPT");
+                        new Intent("linuxdroid.androidterm.RUN_SCRIPT");
                 intent.addCategory(Intent.CATEGORY_DEFAULT);
                 String command = script.getText().toString();
-                intent.putExtra("jackpal.androidterm.iInitialCommand", command);
+                intent.putExtra("linuxdroid.androidterm.iInitialCommand", command);
                 startActivity(intent);
             }});
         addClickListener(R.id.runScriptSaveWindow, new OnClickListener() {
@@ -49,13 +49,13 @@ public class IntentSampleActivity extends Activity
                    if it still exists
                    This will open another window if it doesn't find a match */
                 Intent intent =
-                        new Intent("jackpal.androidterm.RUN_SCRIPT");
+                        new Intent("linuxdroid.androidterm.RUN_SCRIPT");
                 intent.addCategory(Intent.CATEGORY_DEFAULT);
                 String command = script.getText().toString();
-                intent.putExtra("jackpal.androidterm.iInitialCommand", command);
+                intent.putExtra("linuxdroid.androidterm.iInitialCommand", command);
                 if (mHandle != null) {
                     // Identify the targeted window by its handle
-                    intent.putExtra("jackpal.androidterm.window_handle",
+                    intent.putExtra("linuxdroid.androidterm.window_handle",
                             mHandle);
                 }
                 /* The handle for the targeted window -- whether newly opened
@@ -76,7 +76,7 @@ public class IntentSampleActivity extends Activity
         }
 
         if (request == REQUEST_WINDOW_HANDLE && data != null) {
-            mHandle = data.getStringExtra("jackpal.androidterm.window_handle");
+            mHandle = data.getStringExtra("linuxdroid.androidterm.window_handle");
             ((Button) findViewById(R.id.runScriptSaveWindow)).setText(
                     R.string.run_script_existing_window);
         }

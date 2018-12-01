@@ -1,8 +1,8 @@
 //From the desk of Frank P. Westlake; public domain.
-package jackpal.androidterm.shortcuts;
+package linuxdroid.androidterm.shortcuts;
 
-import jackpal.androidterm.R;
-import jackpal.androidterm.compat.AlertDialogCompat;
+import linuxdroid.androidterm.R;
+import linuxdroid.androidterm.compat.AlertDialogCompat;
 import android.app.        AlertDialog;
 import android.content.    Context;
 import android.content.    DialogInterface;

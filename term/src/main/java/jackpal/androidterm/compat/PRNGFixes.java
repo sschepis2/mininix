@@ -8,7 +8,7 @@
  * freely, as long as the origin is not misrepresented.
  */
 
-package jackpal.androidterm.compat;
+package linuxdroid.androidterm.compat;
 
 /**
  * Copied from

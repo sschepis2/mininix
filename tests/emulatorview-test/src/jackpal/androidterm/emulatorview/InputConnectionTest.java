@@ -1,4 +1,4 @@
-package jackpal.androidterm.emulatorview;
+package linuxdroid.androidterm.emulatorview;
 
 import android.test.AndroidTestCase;
 // import android.test.mock.MockApplication;

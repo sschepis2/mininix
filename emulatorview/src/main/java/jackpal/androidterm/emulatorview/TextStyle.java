@@ -1,4 +1,4 @@
-package jackpal.androidterm.emulatorview;
+package linuxdroid.androidterm.emulatorview;
 
 final class TextStyle {
     // Effect bitmasks:

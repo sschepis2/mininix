@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.emulatorview;
+package linuxdroid.androidterm.emulatorview;
 
 import java.io.InputStream;
 import java.io.IOException;

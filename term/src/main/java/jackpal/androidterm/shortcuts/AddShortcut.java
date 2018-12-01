@@ -1,5 +1,5 @@
 //From the desk of Frank P. Westlake; public domain.
-package jackpal.androidterm.shortcuts;
+package linuxdroid.androidterm.shortcuts;
 
 import android.content.    Context;
 import android.content.    DialogInterface;
@@ -20,13 +20,13 @@ import android.widget.     LinearLayout;
 import android.widget.     ScrollView;
 import android.widget.     TextView;
 import android.widget.     EditText;
-import jackpal.androidterm.R;
-import jackpal.androidterm.RemoteInterface;
-import jackpal.androidterm.RunShortcut;
-import jackpal.androidterm.TermDebug;
-import jackpal.androidterm.compat.AlertDialogCompat;
-import jackpal.androidterm.compat.PRNGFixes;
-import jackpal.androidterm.util.ShortcutEncryption;
+import linuxdroid.androidterm.R;
+import linuxdroid.androidterm.RemoteInterface;
+import linuxdroid.androidterm.RunShortcut;
+import linuxdroid.androidterm.TermDebug;
+import linuxdroid.androidterm.compat.AlertDialogCompat;
+import linuxdroid.androidterm.compat.PRNGFixes;
+import linuxdroid.androidterm.util.ShortcutEncryption;
 
 import java.io.            File;
 import java.security.      GeneralSecurityException;
@@ -100,7 +100,7 @@ public class      AddShortcut
                     Intent pickerIntent=new Intent();
                     if(SP.getBoolean("useInternalScriptFinder", false))
                     {
-                      pickerIntent.setClass(getApplicationContext(), jackpal.androidterm.shortcuts.FSNavigator.class)
+                      pickerIntent.setClass(getApplicationContext(), linuxdroid.androidterm.shortcuts.FSNavigator.class)
                       .setData(Uri.fromFile(get))
                       .putExtra("title", getString(R.string.addshortcut_navigator_title));//"SELECT SHORTCUT TARGET")
                     }
@@ -126,7 +126,7 @@ public class      AddShortcut
     lv.addView(layoutTextViewH(getString(R.string.addshortcut_shortcut_label),  et[NAME]));
 
     final ImageView img=new ImageView(context);
-                    img.setImageResource(jackpal.androidterm.R.drawable.ic_launcher);
+                    img.setImageResource(linuxdroid.androidterm.R.drawable.ic_launcher);
                     img.setMaxHeight(100);
                     img.setTag(0xFFFFFFFF);
                     img.setMaxWidth(100);
@@ -281,7 +281,7 @@ public class      AddShortcut
              {
                wrapper.putExtra(
                  Intent.EXTRA_SHORTCUT_ICON_RESOURCE
-               , Intent.ShortcutIconResource.fromContext(context, jackpal.androidterm.R.drawable.ic_launcher)
+               , Intent.ShortcutIconResource.fromContext(context, linuxdroid.androidterm.R.drawable.ic_launcher)
                );
              }
       setResult(RESULT_OK, wrapper);
