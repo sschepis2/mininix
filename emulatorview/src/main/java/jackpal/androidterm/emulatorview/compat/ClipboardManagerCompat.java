@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview.compat;
+package jackpal.androidterm.emulatorview.compat;
 
 public interface ClipboardManagerCompat {
 	CharSequence getText();

@@ -2,10 +2,6 @@
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
-/.idea/codeStyles
-/.idea/runConfigurations.xml
 .DS_Store
 /build
 *.iml
-.externalNativeBuild
-

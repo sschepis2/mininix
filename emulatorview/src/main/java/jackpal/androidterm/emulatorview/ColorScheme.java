@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview;
+package jackpal.androidterm.emulatorview;
 
 /**
  * A class describing a color scheme for an {@link EmulatorView}.

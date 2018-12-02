@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.sample.pathbroadcasts;
+package jackpal.androidterm.sample.pathbroadcasts;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -47,10 +47,10 @@ public class PathReceiver extends BroadcastReceiver {
 
         /**
          * You need to declare the permission
-         * linuxdroid.androidterm.permission.APPEND_TO_PATH
+         * jackpal.androidterm.permission.APPEND_TO_PATH
          * to receive this broadcast.
          */
-        if (action.equals("linuxdroid.androidterm.broadcast.APPEND_TO_PATH")) {
+        if (action.equals("jackpal.androidterm.broadcast.APPEND_TO_PATH")) {
             /* The directory we want appended goes into the result extras */
             Bundle result = getResultExtras(true);
 
@@ -68,14 +68,14 @@ public class PathReceiver extends BroadcastReceiver {
 
         /**
          * You need to declare the permission
-         * linuxdroid.androidterm.permission.PREPEND_TO_PATH
+         * jackpal.androidterm.permission.PREPEND_TO_PATH
          * to receive this broadcast.
          *
          * This is intended for packages like BusyBox installers which need
          * to override existing system commands; otherwise, you should listen
          * for the APPEND_TO_PATH broadcast instead.
          */
-        if (action.equals("linuxdroid.androidterm.broadcast.PREPEND_TO_PATH")) {
+        if (action.equals("jackpal.androidterm.broadcast.PREPEND_TO_PATH")) {
             /* The directory we want prepended goes into the result extras */
             Bundle result = getResultExtras(true);
             result.putString(packageName, sbinDir.getAbsolutePath());

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package jackpal.androidterm;
 
 import android.app.NotificationManager;
 import android.app.Service;
@@ -33,12 +33,12 @@ import android.util.Log;
 import android.app.Notification;
 import android.app.PendingIntent;
 
-import linuxdroid.androidterm.emulatorview.TermSession;
+import jackpal.androidterm.emulatorview.TermSession;
 
-import linuxdroid.androidterm.compat.ServiceForegroundCompat;
-import linuxdroid.androidterm.libtermexec.v1.*;
-import linuxdroid.androidterm.util.SessionList;
-import linuxdroid.androidterm.util.TermSettings;
+import jackpal.androidterm.compat.ServiceForegroundCompat;
+import jackpal.androidterm.libtermexec.v1.*;
+import jackpal.androidterm.util.SessionList;
+import jackpal.androidterm.util.TermSettings;
 
 import java.util.UUID;
 

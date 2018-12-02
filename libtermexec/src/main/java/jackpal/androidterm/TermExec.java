@@ -1,4 +1,4 @@
-package linuxdroid.androidterm;
+package jackpal.androidterm;
 
 import android.annotation.TargetApi;
 import android.os.*;
@@ -19,10 +19,10 @@ import java.util.*;
 public class TermExec {
     // Warning: bump the library revision, when an incompatible change happens
     static {
-        System.loadLibrary("linuxdroid-termexec2");
+        System.loadLibrary("jackpal-termexec2");
     }
 
-    public static final String SERVICE_ACTION_V1 = "linuxdroid.androidterm.action.START_TERM.v1";
+    public static final String SERVICE_ACTION_V1 = "jackpal.androidterm.action.START_TERM.v1";
 
     private static Field descriptorField;
 

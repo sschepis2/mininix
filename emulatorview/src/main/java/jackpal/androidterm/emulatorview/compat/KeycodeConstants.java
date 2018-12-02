@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview.compat;
+package jackpal.androidterm.emulatorview.compat;
 
 /**
  * Keycode constants and modifier masks for use with keyboard event listeners.

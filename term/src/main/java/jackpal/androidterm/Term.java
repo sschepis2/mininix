@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package jackpal.androidterm;
 
 import android.text.TextUtils;
-import linuxdroid.androidterm.compat.ActionBarCompat;
-import linuxdroid.androidterm.compat.ActivityCompat;
-import linuxdroid.androidterm.compat.AndroidCompat;
-import linuxdroid.androidterm.compat.MenuItemCompat;
-import linuxdroid.androidterm.emulatorview.EmulatorView;
-import linuxdroid.androidterm.emulatorview.TermSession;
-import linuxdroid.androidterm.emulatorview.UpdateCallback;
-import linuxdroid.androidterm.emulatorview.compat.ClipboardManagerCompat;
-import linuxdroid.androidterm.emulatorview.compat.ClipboardManagerCompatFactory;
-import linuxdroid.androidterm.emulatorview.compat.KeycodeConstants;
-import linuxdroid.androidterm.util.SessionList;
-import linuxdroid.androidterm.util.TermSettings;
+import jackpal.androidterm.compat.ActionBarCompat;
+import jackpal.androidterm.compat.ActivityCompat;
+import jackpal.androidterm.compat.AndroidCompat;
+import jackpal.androidterm.compat.MenuItemCompat;
+import jackpal.androidterm.emulatorview.EmulatorView;
+import jackpal.androidterm.emulatorview.TermSession;
+import jackpal.androidterm.emulatorview.UpdateCallback;
+import jackpal.androidterm.emulatorview.compat.ClipboardManagerCompat;
+import jackpal.androidterm.emulatorview.compat.ClipboardManagerCompatFactory;
+import jackpal.androidterm.emulatorview.compat.KeycodeConstants;
+import jackpal.androidterm.util.SessionList;
+import jackpal.androidterm.util.TermSettings;
 
 import java.io.IOException;
 import java.text.Collator;
@@ -107,7 +107,7 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
     private Intent TSIntent;
 
     public static final int REQUEST_CHOOSE_WINDOW = 1;
-    public static final String EXTRA_WINDOW_ID = "linuxdroid.androidterm.window_id";
+    public static final String EXTRA_WINDOW_ID = "jackpal.androidterm.window_id";
     private int onResumeSelectWindow = -1;
     private ComponentName mPrivateAlias;
 
@@ -118,10 +118,10 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
 
     private boolean mBackKeyPressed;
 
-    private static final String ACTION_PATH_BROADCAST = "linuxdroid.androidterm.broadcast.APPEND_TO_PATH";
-    private static final String ACTION_PATH_PREPEND_BROADCAST = "linuxdroid.androidterm.broadcast.PREPEND_TO_PATH";
-    private static final String PERMISSION_PATH_BROADCAST = "linuxdroid.androidterm.permission.APPEND_TO_PATH";
-    private static final String PERMISSION_PATH_PREPEND_BROADCAST = "linuxdroid.androidterm.permission.PREPEND_TO_PATH";
+    private static final String ACTION_PATH_BROADCAST = "jackpal.androidterm.broadcast.APPEND_TO_PATH";
+    private static final String ACTION_PATH_PREPEND_BROADCAST = "jackpal.androidterm.broadcast.PREPEND_TO_PATH";
+    private static final String PERMISSION_PATH_BROADCAST = "jackpal.androidterm.permission.APPEND_TO_PATH";
+    private static final String PERMISSION_PATH_PREPEND_BROADCAST = "jackpal.androidterm.permission.PREPEND_TO_PATH";
     private int mPendingPathBroadcasts = 0;
     private BroadcastReceiver mPathReceiver = new BroadcastReceiver() {
         public void onReceive(Context context, Intent intent) {

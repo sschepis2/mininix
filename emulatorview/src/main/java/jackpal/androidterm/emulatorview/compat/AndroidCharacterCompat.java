@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview.compat;
+package jackpal.androidterm.emulatorview.compat;
 
 import android.text.AndroidCharacter;
 

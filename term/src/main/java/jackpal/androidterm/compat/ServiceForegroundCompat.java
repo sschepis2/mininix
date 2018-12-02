@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.compat;
+package jackpal.androidterm.compat;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;

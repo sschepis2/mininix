@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview.compat;
+package jackpal.androidterm.emulatorview.compat;
 
 import android.view.KeyCharacterMap;
 

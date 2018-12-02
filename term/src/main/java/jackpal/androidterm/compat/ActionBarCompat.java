@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.compat;
+package jackpal.androidterm.compat;
 
 import android.app.ActionBar;
 import android.widget.SpinnerAdapter;

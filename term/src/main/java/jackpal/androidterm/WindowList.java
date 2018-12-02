@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package jackpal.androidterm;
 
 import android.app.ListActivity;
 import android.content.ComponentName;
@@ -30,10 +30,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-import linuxdroid.androidterm.compat.ActionBarCompat;
-import linuxdroid.androidterm.compat.ActivityCompat;
-import linuxdroid.androidterm.compat.AndroidCompat;
-import linuxdroid.androidterm.util.SessionList;
+import jackpal.androidterm.compat.ActionBarCompat;
+import jackpal.androidterm.compat.ActivityCompat;
+import jackpal.androidterm.compat.AndroidCompat;
+import jackpal.androidterm.util.SessionList;
 
 public class WindowList extends ListActivity {
     private SessionList sessions;

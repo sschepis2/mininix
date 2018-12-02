@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.util;
+package jackpal.androidterm.util;
 
-import linuxdroid.androidterm.compat.Base64;
+import jackpal.androidterm.compat.Base64;
 
 import android.content.Context;
 import android.content.SharedPreferences;

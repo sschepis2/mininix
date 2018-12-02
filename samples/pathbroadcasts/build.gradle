@@ -4,12 +4,12 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "linuxdroid.androidterm.sample.pathbroadcasts"
+        applicationId "jackpal.androidterm.sample.pathbroadcasts"
         minSdkVersion 16
-        targetSdkVersion 28
+        targetSdkVersion 27
 
         ndk {
-            moduleName "libmininix-androidterm4"
+            moduleName "libjackpal-androidterm4"
             ldLibs "log"
         }
     }

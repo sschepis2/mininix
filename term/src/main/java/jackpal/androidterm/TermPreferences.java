@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package jackpal.androidterm;
 
-import linuxdroid.androidterm.compat.ActionBarCompat;
-import linuxdroid.androidterm.compat.ActivityCompat;
-import linuxdroid.androidterm.compat.AndroidCompat;
+import jackpal.androidterm.compat.ActionBarCompat;
+import jackpal.androidterm.compat.ActivityCompat;
+import jackpal.androidterm.compat.AndroidCompat;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;

@@ -1,8 +1,8 @@
-package linuxdroid.androidterm;
+package jackpal.androidterm;
 
 import android.os.ParcelFileDescriptor;
 import android.text.TextUtils;
-import linuxdroid.androidterm.util.TermSettings;
+import jackpal.androidterm.util.TermSettings;
 
 class BoundSession extends GenericTermSession {
     private final String issuerTitle;

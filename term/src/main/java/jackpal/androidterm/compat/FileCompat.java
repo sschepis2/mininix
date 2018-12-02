@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.compat;
+package jackpal.androidterm.compat;
 
 import java.io.File;
 
@@ -30,7 +30,7 @@ public class FileCompat {
 
     private static class Api8OrEarlier {
         static {
-            System.loadLibrary("linuxdroid-androidterm5");
+            System.loadLibrary("jackpal-androidterm5");
         }
 
         public static boolean canExecute(File file) {

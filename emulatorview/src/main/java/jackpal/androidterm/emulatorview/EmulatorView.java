@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview;
+package jackpal.androidterm.emulatorview;
 
-import linuxdroid.androidterm.emulatorview.compat.ClipboardManagerCompat;
-import linuxdroid.androidterm.emulatorview.compat.ClipboardManagerCompatFactory;
-import linuxdroid.androidterm.emulatorview.compat.KeycodeConstants;
-import linuxdroid.androidterm.emulatorview.compat.Patterns;
+import jackpal.androidterm.emulatorview.compat.ClipboardManagerCompat;
+import jackpal.androidterm.emulatorview.compat.ClipboardManagerCompatFactory;
+import jackpal.androidterm.emulatorview.compat.KeycodeConstants;
+import jackpal.androidterm.emulatorview.compat.Patterns;
 
 import java.io.IOException;
 import java.util.Arrays;

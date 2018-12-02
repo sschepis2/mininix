@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview;
+package jackpal.androidterm.emulatorview;
 
 /**
  * A multi-thread-safe produce-consumer byte array.

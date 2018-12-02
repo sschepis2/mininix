@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview;
+package jackpal.androidterm.emulatorview;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

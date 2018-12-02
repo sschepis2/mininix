@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview;
+package jackpal.androidterm.emulatorview;
 
 /**
  * An abstract screen interface. A terminal screen stores lines of text. (The

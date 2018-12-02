@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.shortcuts;
+package jackpal.androidterm.shortcuts;
 
 import android.graphics.  Bitmap;
 import android.graphics.  Bitmap.Config;

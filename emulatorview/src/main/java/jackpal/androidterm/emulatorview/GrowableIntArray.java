@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview;
+package jackpal.androidterm.emulatorview;
 
 class GrowableIntArray {
     GrowableIntArray(int initalCapacity) {

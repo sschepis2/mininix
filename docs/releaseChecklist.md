@@ -74,13 +74,13 @@ The Android Developer Console Publishing UI is error prone:
 10) Verify that Google Play Store is serving the new version
 (check the "What's New" portion.)
 
-https://play.google.com/store/apps/details?id=linuxdroid.androidterm
+https://play.google.com/store/apps/details?id=jackpal.androidterm
 
 (Note, it can take several hours for the app to appear in the store.)
 
 # Update the Terminal Emulator for Android Wiki
 
-    open https://github.com/linuxdroid/Android-Terminal-Emulator/wiki/Recent-Updates
+    open https://github.com/jackpal/Android-Terminal-Emulator/wiki/Recent-Updates
 
 # Publish a new pre-compiled version of the APK for people who can't access Market.
 
@@ -98,6 +98,6 @@ Also update the version number in index.html
     git push
     git checkout master
 
-Public URL is http://linuxdroid.github.com/Android-Terminal-Emulator/downloads/Term.apk
+Public URL is http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk
 
 

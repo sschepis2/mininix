@@ -3,4 +3,3 @@
     <issue id="MissingTranslation" severity="ignore" />
     <issue id="UseSparseArrays" severity="ignore" />
 </lint>
-

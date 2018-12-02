@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.compat;
+package jackpal.androidterm.compat;
 
 import android.view.MenuItem;
 

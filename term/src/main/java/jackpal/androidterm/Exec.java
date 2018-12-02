@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package jackpal.androidterm;
 import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
@@ -33,7 +33,7 @@ public class Exec
 {
     // Warning: bump the library revision, when an incompatible change happens
     static {
-        System.loadLibrary("linuxdroid-androidterm5");
+        System.loadLibrary("jackpal-androidterm5");
     }
 
     static native void setPtyWindowSizeInternal(int fd, int row, int col, int xpixel, int ypixel) throws IOException;

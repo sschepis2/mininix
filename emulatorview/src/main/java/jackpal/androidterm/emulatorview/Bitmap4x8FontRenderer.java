@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview;
+package jackpal.androidterm.emulatorview;
 
-import linuxdroid.androidterm.emulatorview.compat.AndroidCompat;
+import jackpal.androidterm.emulatorview.compat.AndroidCompat;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;

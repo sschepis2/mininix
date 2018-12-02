@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.sample.telnet;
+package jackpal.androidterm.sample.telnet;
 
 import java.io.File;
 import java.io.FileOutputStream;

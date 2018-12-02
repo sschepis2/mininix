@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package jackpal.androidterm;
 
 import java.io.*;
 import java.lang.reflect.Field;
@@ -26,12 +26,12 @@ import android.os.Message;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import linuxdroid.androidterm.emulatorview.ColorScheme;
-import linuxdroid.androidterm.emulatorview.TermSession;
-import linuxdroid.androidterm.emulatorview.UpdateCallback;
+import jackpal.androidterm.emulatorview.ColorScheme;
+import jackpal.androidterm.emulatorview.TermSession;
+import jackpal.androidterm.emulatorview.UpdateCallback;
 
-import linuxdroid.androidterm.compat.FileCompat;
-import linuxdroid.androidterm.util.TermSettings;
+import jackpal.androidterm.compat.FileCompat;
+import jackpal.androidterm.util.TermSettings;
 
 /**
  * A terminal session, consisting of a TerminalEmulator, a TranscriptScreen,

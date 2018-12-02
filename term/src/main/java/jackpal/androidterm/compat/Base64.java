@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.compat;
+package jackpal.androidterm.compat;
 
 /**
  * Copied from
