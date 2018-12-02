@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;

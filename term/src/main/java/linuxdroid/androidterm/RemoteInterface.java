@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,18 +31,18 @@ import android.os.IBinder;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import linuxdroid.androidterm.emulatorview.TermSession;
+import linuxdroid.mininix.emulatorview.TermSession;
 
-import linuxdroid.androidterm.util.SessionList;
-import linuxdroid.androidterm.util.TermSettings;
+import linuxdroid.mininix.util.SessionList;
+import linuxdroid.mininix.util.TermSettings;
 
 public class RemoteInterface extends Activity {
-    protected static final String PRIVACT_OPEN_NEW_WINDOW = "linuxdroid.androidterm.private.OPEN_NEW_WINDOW";
-    protected static final String PRIVACT_SWITCH_WINDOW = "linuxdroid.androidterm.private.SWITCH_WINDOW";
+    protected static final String PRIVACT_OPEN_NEW_WINDOW = "linuxdroid.mininix.private.OPEN_NEW_WINDOW";
+    protected static final String PRIVACT_SWITCH_WINDOW = "linuxdroid.mininix.private.SWITCH_WINDOW";
 
-    protected static final String PRIVEXTRA_TARGET_WINDOW = "linuxdroid.androidterm.private.target_window";
+    protected static final String PRIVEXTRA_TARGET_WINDOW = "linuxdroid.mininix.private.target_window";
 
-    protected static final String PRIVACT_ACTIVITY_ALIAS = "linuxdroid.androidterm.TermInternal";
+    protected static final String PRIVACT_ACTIVITY_ALIAS = "linuxdroid.mininix.TermInternal";
 
     private TermSettings mSettings;
 

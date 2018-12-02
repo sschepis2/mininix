@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import android.app.NotificationManager;
 import android.app.Service;
@@ -33,12 +33,12 @@ import android.util.Log;
 import android.app.Notification;
 import android.app.PendingIntent;
 
-import linuxdroid.androidterm.emulatorview.TermSession;
+import linuxdroid.mininix.emulatorview.TermSession;
 
-import linuxdroid.androidterm.compat.ServiceForegroundCompat;
-import linuxdroid.androidterm.libtermexec.v1.*;
-import linuxdroid.androidterm.util.SessionList;
-import linuxdroid.androidterm.util.TermSettings;
+import linuxdroid.mininix.compat.ServiceForegroundCompat;
+import linuxdroid.mininix.libtermexec.v1.*;
+import linuxdroid.mininix.util.SessionList;
+import linuxdroid.mininix.util.TermSettings;
 
 import java.util.UUID;
 

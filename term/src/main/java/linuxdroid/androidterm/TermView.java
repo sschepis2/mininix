@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 
-import linuxdroid.androidterm.emulatorview.ColorScheme;
-import linuxdroid.androidterm.emulatorview.EmulatorView;
-import linuxdroid.androidterm.emulatorview.TermSession;
+import linuxdroid.mininix.emulatorview.ColorScheme;
+import linuxdroid.mininix.emulatorview.EmulatorView;
+import linuxdroid.mininix.emulatorview.TermSession;
 
-import linuxdroid.androidterm.util.TermSettings;
+import linuxdroid.mininix.util.TermSettings;
 
 public class TermView extends EmulatorView {
     public TermView(Context context, TermSession session, DisplayMetrics metrics) {

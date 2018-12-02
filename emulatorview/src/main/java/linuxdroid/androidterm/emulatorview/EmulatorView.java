@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview;
+package linuxdroid.mininix.emulatorview;
 
-import linuxdroid.androidterm.emulatorview.compat.ClipboardManagerCompat;
-import linuxdroid.androidterm.emulatorview.compat.ClipboardManagerCompatFactory;
-import linuxdroid.androidterm.emulatorview.compat.KeycodeConstants;
-import linuxdroid.androidterm.emulatorview.compat.Patterns;
+import linuxdroid.mininix.emulatorview.compat.ClipboardManagerCompat;
+import linuxdroid.mininix.emulatorview.compat.ClipboardManagerCompatFactory;
+import linuxdroid.mininix.emulatorview.compat.KeycodeConstants;
+import linuxdroid.mininix.emulatorview.compat.Patterns;
 
 import java.io.IOException;
 import java.util.Arrays;

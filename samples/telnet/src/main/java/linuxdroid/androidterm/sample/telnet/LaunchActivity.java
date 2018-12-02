@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.sample.telnet;
+package linuxdroid.mininix.sample.telnet;
 
 import java.io.File;
 import java.io.FileOutputStream;

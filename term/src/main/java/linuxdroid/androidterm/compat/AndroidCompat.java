@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.compat;
+package linuxdroid.mininix.compat;
 
 /**
  * The classes in this package take advantage of the fact that the VM does

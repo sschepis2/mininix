@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview.compat;
+package linuxdroid.mininix.emulatorview.compat;
 
 /**
  * The classes in this package take advantage of the fact that the VM does

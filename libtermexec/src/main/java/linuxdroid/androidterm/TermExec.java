@@ -1,4 +1,4 @@
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import android.annotation.TargetApi;
 import android.os.*;
@@ -22,7 +22,7 @@ public class TermExec {
         System.loadLibrary("linuxdroid-termexec2");
     }
 
-    public static final String SERVICE_ACTION_V1 = "linuxdroid.androidterm.action.START_TERM.v1";
+    public static final String SERVICE_ACTION_V1 = "linuxdroid.mininix.action.START_TERM.v1";
 
     private static Field descriptorField;
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
-import linuxdroid.androidterm.compat.ActionBarCompat;
-import linuxdroid.androidterm.compat.ActivityCompat;
-import linuxdroid.androidterm.compat.AndroidCompat;
+import linuxdroid.mininix.compat.ActionBarCompat;
+import linuxdroid.mininix.compat.ActivityCompat;
+import linuxdroid.mininix.compat.AndroidCompat;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;

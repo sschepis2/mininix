@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import android.os.Handler;
 import android.os.Message;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
-import linuxdroid.androidterm.compat.FileCompat;
-import linuxdroid.androidterm.util.TermSettings;
+import linuxdroid.mininix.compat.FileCompat;
+import linuxdroid.mininix.util.TermSettings;
 
 import java.io.*;
 import java.util.ArrayList;

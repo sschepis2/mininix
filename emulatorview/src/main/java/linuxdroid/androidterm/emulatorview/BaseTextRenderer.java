@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview;
+package linuxdroid.mininix.emulatorview;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

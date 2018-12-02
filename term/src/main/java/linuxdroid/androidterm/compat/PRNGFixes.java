@@ -8,7 +8,7 @@
  * freely, as long as the origin is not misrepresented.
  */
 
-package linuxdroid.androidterm.compat;
+package linuxdroid.mininix.compat;
 
 /**
  * Copied from

@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.compat;
+package linuxdroid.mininix.compat;
 
 import android.view.MenuItem;
 

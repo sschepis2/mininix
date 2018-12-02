@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview;
+package linuxdroid.mininix.emulatorview;
 
 /**
  * Generic callback to be invoked to notify of updates.

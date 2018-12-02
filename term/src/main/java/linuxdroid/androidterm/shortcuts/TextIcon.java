@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.shortcuts;
+package linuxdroid.mininix.shortcuts;
 
 import android.graphics.  Bitmap;
 import android.graphics.  Bitmap.Config;

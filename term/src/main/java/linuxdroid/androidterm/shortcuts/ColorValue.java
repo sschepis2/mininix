@@ -1,8 +1,8 @@
 //From the desk of Frank P. Westlake; public domain.
-package linuxdroid.androidterm.shortcuts;
+package linuxdroid.mininix.shortcuts;
 
-import linuxdroid.androidterm.R;
-import linuxdroid.androidterm.compat.AlertDialogCompat;
+import linuxdroid.mininix.R;
+import linuxdroid.mininix.compat.AlertDialogCompat;
 import android.app.        AlertDialog;
 import android.content.    Context;
 import android.content.    DialogInterface;

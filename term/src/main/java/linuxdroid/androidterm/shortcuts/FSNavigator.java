@@ -1,5 +1,5 @@
 //From the desk of Frank P. Westlake; public domain.
-package linuxdroid.androidterm.shortcuts;
+package linuxdroid.mininix.shortcuts;
 
 import android.content.             Intent;
 import android.content.             SharedPreferences;
@@ -22,7 +22,7 @@ import android.widget.              Toast;
 import java.io.                     File;
 import java.io.                     IOException;
 import java.util.                   HashMap;
-import linuxdroid.androidterm.         R;
+import linuxdroid.mininix.         R;
 
 public class      FSNavigator
        extends    android.app.Activity

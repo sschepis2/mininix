@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview;
+package linuxdroid.mininix.emulatorview;
 
 /**
  * Utility class for dealing with text style lines.

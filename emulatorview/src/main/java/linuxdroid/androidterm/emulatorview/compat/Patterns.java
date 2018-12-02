@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.emulatorview.compat;
+package linuxdroid.mininix.emulatorview.compat;
 
 /**
  * Based upon

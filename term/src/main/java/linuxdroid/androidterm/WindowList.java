@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import android.app.ListActivity;
 import android.content.ComponentName;
@@ -30,10 +30,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-import linuxdroid.androidterm.compat.ActionBarCompat;
-import linuxdroid.androidterm.compat.ActivityCompat;
-import linuxdroid.androidterm.compat.AndroidCompat;
-import linuxdroid.androidterm.util.SessionList;
+import linuxdroid.mininix.compat.ActionBarCompat;
+import linuxdroid.mininix.compat.ActivityCompat;
+import linuxdroid.mininix.compat.AndroidCompat;
+import linuxdroid.mininix.util.SessionList;
 
 public class WindowList extends ListActivity {
     private SessionList sessions;

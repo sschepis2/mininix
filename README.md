@@ -15,7 +15,7 @@ Android trademark owner.)
 This code is based on the "Term" application which is included in the Android
 Open Source Project. (Which I also wrote. :-) )
 
-[Download the Terminal Emulator for Android from Google Play](https://play.google.com/store/apps/details?id=linuxdroid.androidterm)
+[Download the Terminal Emulator for Android from Google Play](https://play.google.com/store/apps/details?id=linuxdroid.mininix)
 
 If you are unable to use the Play Store, you can also
 [download from GitHub](https://linuxdroid.github.io/Android-Terminal-Emulator/)

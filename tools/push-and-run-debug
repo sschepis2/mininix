@@ -14,5 +14,5 @@ fi
 
 ADB="$ANDROID_SDK_ROOT/platform-tools/adb"
 
-$ADB uninstall linuxdroid.androidterm
-$ADB install -r term/build/outputs/apk/term-debug.apk && $ADB shell am start -n linuxdroid.androidterm/linuxdroid.androidterm.Term
+$ADB uninstall linuxdroid.mininix
+$ADB install -r term/build/outputs/apk/term-debug.apk && $ADB shell am start -n linuxdroid.mininix/linuxdroid.mininix.Term

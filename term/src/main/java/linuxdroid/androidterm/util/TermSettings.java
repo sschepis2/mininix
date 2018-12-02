@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.util;
+package linuxdroid.mininix.util;
 
-import linuxdroid.androidterm.R;
-import linuxdroid.androidterm.compat.AndroidCompat;
+import linuxdroid.mininix.R;
+import linuxdroid.mininix.compat.AndroidCompat;
 
 import android.content.SharedPreferences;
 import android.content.res.Resources;

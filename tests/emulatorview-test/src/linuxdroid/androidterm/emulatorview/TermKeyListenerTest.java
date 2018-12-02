@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview;
+package linuxdroid.mininix.emulatorview;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

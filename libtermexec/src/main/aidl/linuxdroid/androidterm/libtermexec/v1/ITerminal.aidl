@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.libtermexec.v1;
+package linuxdroid.mininix.libtermexec.v1;
 
 import android.content.IntentSender;
 import android.os.ParcelFileDescriptor;

@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.libtermexec;
+package linuxdroid.mininix.libtermexec;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

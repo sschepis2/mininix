@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.util;
+package linuxdroid.mininix.util;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Collection;
 
-import linuxdroid.androidterm.emulatorview.TermSession;
-import linuxdroid.androidterm.emulatorview.UpdateCallback;
+import linuxdroid.mininix.emulatorview.TermSession;
+import linuxdroid.mininix.emulatorview.UpdateCallback;
 
 /**
  * An ArrayList of TermSessions which allows users to register callbacks in

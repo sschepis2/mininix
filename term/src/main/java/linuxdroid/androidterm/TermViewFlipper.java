@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -29,12 +29,12 @@ import android.view.View;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
-import linuxdroid.androidterm.emulatorview.EmulatorView;
-import linuxdroid.androidterm.emulatorview.TermSession;
-import linuxdroid.androidterm.emulatorview.UpdateCallback;
+import linuxdroid.mininix.emulatorview.EmulatorView;
+import linuxdroid.mininix.emulatorview.TermSession;
+import linuxdroid.mininix.emulatorview.UpdateCallback;
 
-import linuxdroid.androidterm.compat.AndroidCompat;
-import linuxdroid.androidterm.util.TermSettings;
+import linuxdroid.mininix.compat.AndroidCompat;
+import linuxdroid.mininix.util.TermSettings;
 
 public class TermViewFlipper extends ViewFlipper implements Iterable<View> {
     private Context context;

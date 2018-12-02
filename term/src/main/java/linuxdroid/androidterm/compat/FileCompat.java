@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.compat;
+package linuxdroid.mininix.compat;
 
 import java.io.File;
 

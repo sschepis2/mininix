@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview;
+package linuxdroid.mininix.emulatorview;
 
 class GrowableIntArray {
     GrowableIntArray(int initalCapacity) {

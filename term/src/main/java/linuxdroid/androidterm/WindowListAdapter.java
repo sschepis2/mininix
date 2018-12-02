@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import android.app.Activity;
 import android.content.Context;
@@ -24,10 +24,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import linuxdroid.androidterm.emulatorview.TermSession;
-import linuxdroid.androidterm.emulatorview.UpdateCallback;
+import linuxdroid.mininix.emulatorview.TermSession;
+import linuxdroid.mininix.emulatorview.UpdateCallback;
 
-import linuxdroid.androidterm.util.SessionList;
+import linuxdroid.mininix.util.SessionList;
 
 public class WindowListAdapter extends BaseAdapter implements UpdateCallback {
     private SessionList mSessions;

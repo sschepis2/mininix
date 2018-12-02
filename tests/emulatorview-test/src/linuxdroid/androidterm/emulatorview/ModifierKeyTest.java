@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview;
+package linuxdroid.mininix.emulatorview;
 
 import android.test.AndroidTestCase;
 // import android.view.KeyEvent;

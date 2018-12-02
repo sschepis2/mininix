@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="linuxdroid.androidterm.test"
+    package="linuxdroid.mininix.test"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,7 +8,7 @@
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="linuxdroid.androidterm" />
+        android:targetPackage="linuxdroid.mininix" />
 
     <application
         android:icon="@drawable/ic_launcher"

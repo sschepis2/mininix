@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview.compat;
+package linuxdroid.mininix.emulatorview.compat;
 
 import android.content.Context;
 import android.text.ClipboardManager;

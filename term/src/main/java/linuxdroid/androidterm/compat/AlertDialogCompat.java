@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.compat;
+package linuxdroid.mininix.compat;
 
 import android.app.AlertDialog;
 import android.content.Context;

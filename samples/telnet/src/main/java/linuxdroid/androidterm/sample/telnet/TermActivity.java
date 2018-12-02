@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.sample.telnet;
+package linuxdroid.mininix.sample.telnet;
 
 import java.io.InputStream;
 import java.io.IOException;
@@ -20,8 +20,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import linuxdroid.androidterm.emulatorview.EmulatorView;
-import linuxdroid.androidterm.emulatorview.TermSession;
+import linuxdroid.mininix.emulatorview.EmulatorView;
+import linuxdroid.mininix.emulatorview.TermSession;
 
 /**
  * This sample activity demonstrates the use of EmulatorView.

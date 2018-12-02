@@ -1,8 +1,8 @@
-package linuxdroid.androidterm;
+package linuxdroid.mininix;
 
 import android.os.ParcelFileDescriptor;
 import android.text.TextUtils;
-import linuxdroid.androidterm.util.TermSettings;
+import linuxdroid.mininix.util.TermSettings;
 
 class BoundSession extends GenericTermSession {
     private final String issuerTitle;

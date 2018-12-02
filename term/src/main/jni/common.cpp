@@ -34,7 +34,7 @@
 #include "termExec.h"
 #include "fileCompat.h"
 
-#define LOG_TAG "libmininix-androidterm"
+#define LOG_TAG "liblinuxdroid-mininix"
 
 /*
  * Register several native methods for one class.

@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.emulatorview.compat;
+package linuxdroid.mininix.emulatorview.compat;
 
 import android.text.AndroidCharacter;
 

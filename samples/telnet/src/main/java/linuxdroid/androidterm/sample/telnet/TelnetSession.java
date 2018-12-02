@@ -1,4 +1,4 @@
-package linuxdroid.androidterm.sample.telnet;
+package linuxdroid.mininix.sample.telnet;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import android.util.Log;
 
-import linuxdroid.androidterm.emulatorview.TermSession;
+import linuxdroid.mininix.emulatorview.TermSession;
 
 /**
  * A rudimentary Telnet client implemented as a subclass of TermSession.

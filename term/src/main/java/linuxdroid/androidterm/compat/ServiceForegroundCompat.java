@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package linuxdroid.androidterm.compat;
+package linuxdroid.mininix.compat;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;
