@@ -24,10 +24,10 @@
 #define LOG_TAG "linuxdroid-termexec"
 
 extern "C" {
-JNIEXPORT jint JNICALL Java_linuxdroid_androidterm_TermExec_createSubprocessInternal
+JNIEXPORT jint JNICALL Java_linuxdroid_mininix_TermExec_createSubprocessInternal
       (JNIEnv *, jclass, jstring, jobjectArray, jobjectArray, jint);
 
-    JNIEXPORT jint JNICALL Java_linuxdroid_androidterm_TermExec_waitFor
+    JNIEXPORT jint JNICALL Java_linuxdroid_mininix_TermExec_waitFor
       (JNIEnv *, jclass, jint);
 }
 

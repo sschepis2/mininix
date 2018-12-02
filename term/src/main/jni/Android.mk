@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := liblinuxdroid-androidterm5
+LOCAL_MODULE := liblinuxdroid-mininix
 LOCAL_LDFLAGS := -Wl,--build-id
 LOCAL_SRC_FILES := \
 	/home/sschepis/media/linuxdroid/mininix/Application.mk \
