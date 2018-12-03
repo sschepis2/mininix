@@ -26,8 +26,7 @@
 #include <unistd.h>
 #include <termios.h>
 #include <signal.h>
-
-typedef unsigned short char16_t;
+#include <string.h>
 
 class String8 {
 public:
@@ -41,7 +40,7 @@ public:
         }
     }
 
-    void set(const char16_t* o, size_t numChars) {
+    void set(const jchar* o, size_t numChars) {
         if (mString) {
             free(mString);
         }
@@ -73,8 +72,8 @@ static int throwOutOfMemoryError(JNIEnv *env, const char *message)
 
 static int throwIOException(JNIEnv *env, int errnum, const char *message)
 {
-    __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "%s errno %s(%d)",
-        message, strerror(errno), errno);
+//    __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "%s errno %s(%d)",
+//        message, strerror(errno), errno);
 
     if (errnum != 0) {
         const char *s = strerror(errnum);

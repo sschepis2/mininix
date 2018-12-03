@@ -30,7 +30,7 @@ public class FileCompat {
 
     private static class Api8OrEarlier {
         static {
-            System.loadLibrary("linuxdroid-mininix5");
+            System.loadLibrary("linuxdroid-mininix");
         }
 
         public static boolean canExecute(File file) {

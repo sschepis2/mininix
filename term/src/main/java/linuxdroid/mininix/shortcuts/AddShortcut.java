@@ -254,6 +254,7 @@ public class      AddShortcut
         throw new RuntimeException(e);
       }
       Intent target=  new Intent().setClass(context, RunShortcut.class);
+             target.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
              target.setAction(RunShortcut.ACTION_RUN_SHORTCUT);
              target.putExtra(RunShortcut.EXTRA_SHORTCUT_COMMAND, cmdEnc);
              target.putExtra(RunShortcut.EXTRA_WINDOW_HANDLE, shortcutName);

@@ -1,18 +1,23 @@
 apply plugin: 'com.android.application'
-
 android {
     compileSdkVersion 28
-
     defaultConfig {
         applicationId "linuxdroid.mininix.sample.intents"
         minSdkVersion 16
         targetSdkVersion 28
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    buildToolsVersion '28.0.3'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
 }
