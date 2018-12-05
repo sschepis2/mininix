@@ -14,7 +14,7 @@ fi
 
 ICON=$1
 
-RES=term/src/main/res
+RES=terminal/src/main/res
 IC_LAUNCHER=ic_launcher.png
 
 cp $ICON-48.png $RES/drawable/$IC_LAUNCHER

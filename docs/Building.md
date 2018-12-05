@@ -1,12 +1,12 @@
 Building
 ========
 
-To keep from typing "Terminal Emulator for Android" over and over again, this
+To keep from typing "Mininix" over and over again, this
 document will use the abbreviation "TEA" to stand for "Terminal
 Emulator for Android".
 
 
-Download the Software Needed to Build Terminal Emulator for Android
+Download the Software Needed to Build Mininix
 -------------------------------------------------------------------
 
 TEA is built using:
@@ -76,7 +76,7 @@ Building TEA with Android Studio
      wizard.
   3. Choose the top-level TEA directory. (If you installed the source code from
      github, this directory will be named Android-Terminal-Emulator).
-  4. Use the Android Studio menu "Run : Run 'term'" to build and run the app.
+  4. Use the Android Studio menu "Run : Run 'terminal'" to build and run the app.
 
 
 Building TEA from the command line

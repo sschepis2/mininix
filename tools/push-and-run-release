@@ -15,4 +15,4 @@ fi
 ADB="$ANDROID_SDK_ROOT/platform-tools/adb"
 
 $ADB uninstall linuxdroid.mininix
-$ADB install -r term/build/outputs/apk/Term.apk && $ADB shell am start -n linuxdroid.mininix/linuxdroid.mininix.Term
+$ADB install -r terminal/build/outputs/apk/Term.apk && $ADB shell am start -n linuxdroid.mininix/linuxdroid.mininix.Term

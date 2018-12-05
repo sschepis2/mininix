@@ -2,7 +2,7 @@
 # command line build script for building release version
 # This will only work on my (Jack Palevich) computer, because it
 # requires the private key store used to sign the release version
-# of Terminal Emulator for Android.
+# of Mininix.
 set -e
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

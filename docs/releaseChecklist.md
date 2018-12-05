@@ -1,4 +1,4 @@
-## Terminal Emulator for Android Release Checklist
+## Mininix Release Checklist
 
 # Test on 1.6 Donut API 4
 
@@ -24,7 +24,7 @@
 
 (Has to be on a real device, Swype beta won't run on an emulator.)
 
-# Update ./term/src/main/AndroidManifest.xml version number
+# Update ./terminal/src/main/AndroidManifest.xml version number
 
     tools/increment-version-number
 
@@ -53,7 +53,7 @@
 
 The Android Developer Console Publishing UI is error prone:
 
-1) Click on the "Terminal Emulator for Android" link.
+1) Click on the "Mininix" link.
 
 2) Click on the APK files tab
 
@@ -78,7 +78,7 @@ https://play.google.com/store/apps/details?id=linuxdroid.mininix
 
 (Note, it can take several hours for the app to appear in the store.)
 
-# Update the Terminal Emulator for Android Wiki
+# Update the Mininix Wiki
 
     open https://github.com/linuxdroid/Android-Terminal-Emulator/wiki/Recent-Updates
 
@@ -87,7 +87,7 @@ https://play.google.com/store/apps/details?id=linuxdroid.mininix
 Github serves pages out of branch gh-pages , directory downloads/Term.apk
 Also update the version number in index.html
 
-    cp ./term/build/outputs/apk/Term.apk /tmp
+    cp ./terminal/build/outputs/apk/Term.apk /tmp
     git checkout gh-pages
     mv /tmp/Term.apk downloads/Term.apk
     git add downloads/Term.apk
