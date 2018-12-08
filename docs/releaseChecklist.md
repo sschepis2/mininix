@@ -1,4 +1,4 @@
-## Terminal Emulator for Android Release Checklist
+## Mininix Release Checklist
 
 # Test on 1.6 Donut API 4
 
@@ -24,7 +24,7 @@
 
 (Has to be on a real device, Swype beta won't run on an emulator.)
 
-# Update ./term/src/main/AndroidManifest.xml version number
+# Update ./terminal/src/main/AndroidManifest.xml version number
 
     tools/increment-version-number
 
@@ -53,7 +53,7 @@
 
 The Android Developer Console Publishing UI is error prone:
 
-1) Click on the "Terminal Emulator for Android" link.
+1) Click on the "Mininix" link.
 
 2) Click on the APK files tab
 
@@ -74,20 +74,20 @@ The Android Developer Console Publishing UI is error prone:
 10) Verify that Google Play Store is serving the new version
 (check the "What's New" portion.)
 
-https://play.google.com/store/apps/details?id=jackpal.androidterm
+https://play.google.com/store/apps/details?id=linuxdroid.mininix
 
 (Note, it can take several hours for the app to appear in the store.)
 
-# Update the Terminal Emulator for Android Wiki
+# Update the Mininix Wiki
 
-    open https://github.com/jackpal/Android-Terminal-Emulator/wiki/Recent-Updates
+    open https://github.com/linuxdroid/Android-Terminal-Emulator/wiki/Recent-Updates
 
 # Publish a new pre-compiled version of the APK for people who can't access Market.
 
 Github serves pages out of branch gh-pages , directory downloads/Term.apk
 Also update the version number in index.html
 
-    cp ./term/build/outputs/apk/Term.apk /tmp
+    cp ./terminal/build/outputs/apk/Term.apk /tmp
     git checkout gh-pages
     mv /tmp/Term.apk downloads/Term.apk
     git add downloads/Term.apk
@@ -98,6 +98,6 @@ Also update the version number in index.html
     git push
     git checkout master
 
-Public URL is http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk
+Public URL is http://linuxdroid.github.com/Android-Terminal-Emulator/downloads/Term.apk
 
 

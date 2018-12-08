@@ -1,0 +1,5 @@
+# ninja log v5
+0	81	0	CMakeFiles/linuxdroid-mininix.dir/src/main/jni/common.cpp.o	82c916b4e0751ef5
+0	90	0	CMakeFiles/linuxdroid-mininix.dir/src/main/jni/fileCompat.cpp.o	13023ce40768a93a
+1	106	0	CMakeFiles/linuxdroid-mininix.dir/src/main/jni/termExec.cpp.o	dbeacf25004db7d3
+106	148	0	../../../../build/intermediates/cmake/release/obj/x86/liblinuxdroid-mininix.so	7dbf8ca446a59a70

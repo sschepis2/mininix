@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/macbookpro/Documents/Graphics/mininix3/libtermexec/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/macbookpro/Documents/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /Users/macbookpro/Documents/Graphics/mininix3/libtermexec/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"linuxdroid-termexec-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "linuxdroid-termexec",
+			"buildCommand" : "/Users/macbookpro/Documents/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /Users/macbookpro/Documents/Graphics/mininix3/libtermexec/.externalNativeBuild/cmake/release/x86 --target linuxdroid-termexec",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sysroot  -Dlinuxdroid_termexec_EXPORTS -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/macbookpro/Documents/Graphics/mininix3/libtermexec/src/main/jni/process.cpp",
+					"workingDirectory" : "/Users/macbookpro/Documents/Graphics/mininix3/libtermexec/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/macbookpro/Documents/Graphics/mininix3/libtermexec/build/intermediates/cmake/release/obj/x86/liblinuxdroid-termexec.so",
+			"toolchain" : "14101968727951818007"
+		}
+	},
+	"toolchains" : 
+	{
+		"14101968727951818007" : 
+		{
+			"cCompilerExecutable" : "/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

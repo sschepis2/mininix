@@ -26,8 +26,7 @@
 #include <unistd.h>
 #include <termios.h>
 #include <signal.h>
-
-typedef unsigned short char16_t;
+#include <string.h>
 
 class String8 {
 public:
@@ -41,7 +40,7 @@ public:
         }
     }
 
-    void set(const char16_t* o, size_t numChars) {
+    void set(const jchar* o, size_t numChars) {
         if (mString) {
             free(mString);
         }
@@ -73,8 +72,8 @@ static int throwOutOfMemoryError(JNIEnv *env, const char *message)
 
 static int throwIOException(JNIEnv *env, int errnum, const char *message)
 {
-    __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "%s errno %s(%d)",
-        message, strerror(errno), errno);
+//    __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "%s errno %s(%d)",
+//        message, strerror(errno), errno);
 
     if (errnum != 0) {
         const char *s = strerror(errnum);
@@ -179,13 +178,13 @@ static int create_subprocess(JNIEnv *env, const char *cmd, char *const argv[], c
 
 extern "C" {
 
-JNIEXPORT void JNICALL Java_jackpal_androidterm_TermExec_sendSignal(JNIEnv *env, jobject clazz,
+JNIEXPORT void JNICALL Java_linuxdroid_mininix_TermExec_sendSignal(JNIEnv *env, jobject clazz,
     jint procId, jint signal)
 {
     kill(procId, signal);
 }
 
-JNIEXPORT jint JNICALL Java_jackpal_androidterm_TermExec_waitFor(JNIEnv *env, jclass clazz, jint procId) {
+JNIEXPORT jint JNICALL Java_linuxdroid_mininix_TermExec_waitFor(JNIEnv *env, jclass clazz, jint procId) {
     int status;
     waitpid(procId, &status, 0);
     int result = 0;
@@ -195,7 +194,7 @@ JNIEXPORT jint JNICALL Java_jackpal_androidterm_TermExec_waitFor(JNIEnv *env, jc
     return result;
 }
 
-JNIEXPORT jint JNICALL Java_jackpal_androidterm_TermExec_createSubprocessInternal(JNIEnv *env, jclass clazz,
+JNIEXPORT jint JNICALL Java_linuxdroid_mininix_TermExec_createSubprocessInternal(JNIEnv *env, jclass clazz,
     jstring cmd, jobjectArray args, jobjectArray envVars, jint masterFd)
 {
     const jchar* str = cmd ? env->GetStringCritical(cmd, 0) : 0;

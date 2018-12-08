@@ -1,0 +1,4 @@
+[1/4] Building CXX object CMakeFiles/linuxdroid-mininix.dir/src/main/jni/common.cpp.o
+[2/4] Building CXX object CMakeFiles/linuxdroid-mininix.dir/src/main/jni/fileCompat.cpp.o
+[3/4] Building CXX object CMakeFiles/linuxdroid-mininix.dir/src/main/jni/termExec.cpp.o
+[4/4] Linking CXX shared library ../../../../build/intermediates/cmake/release/obj/x86/liblinuxdroid-mininix.so

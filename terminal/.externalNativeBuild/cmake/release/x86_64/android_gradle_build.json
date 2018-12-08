@@ -1,0 +1,53 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/macbookpro/Documents/Graphics/mininix3/terminal/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/macbookpro/Documents/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /Users/macbookpro/Documents/Graphics/mininix3/terminal/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"linuxdroid-mininix-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "linuxdroid-mininix",
+			"buildCommand" : "/Users/macbookpro/Documents/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /Users/macbookpro/Documents/Graphics/mininix3/terminal/.externalNativeBuild/cmake/release/x86_64 --target linuxdroid-mininix",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sysroot  -Dlinuxdroid_mininix_EXPORTS -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/macbookpro/Documents/Graphics/mininix3/terminal/src/main/jni/common.cpp",
+					"workingDirectory" : "/Users/macbookpro/Documents/Graphics/mininix3/terminal/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sysroot  -Dlinuxdroid_mininix_EXPORTS -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/macbookpro/Documents/Graphics/mininix3/terminal/src/main/jni/fileCompat.cpp",
+					"workingDirectory" : "/Users/macbookpro/Documents/Graphics/mininix3/terminal/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sysroot  -Dlinuxdroid_mininix_EXPORTS -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/macbookpro/Documents/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/macbookpro/Documents/Graphics/mininix3/terminal/src/main/jni/termExec.cpp",
+					"workingDirectory" : "/Users/macbookpro/Documents/Graphics/mininix3/terminal/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/macbookpro/Documents/Graphics/mininix3/terminal/build/intermediates/cmake/release/obj/x86_64/liblinuxdroid-mininix.so",
+			"toolchain" : "14101968727951818007"
+		}
+	},
+	"toolchains" : 
+	{
+		"14101968727951818007" : 
+		{
+			"cCompilerExecutable" : "/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/macbookpro/Documents/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

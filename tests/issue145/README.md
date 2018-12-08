@@ -8,7 +8,7 @@ Created by ./fuzzer | head -c 983 | tail -c 6 >issue145repro.txt
 
 This is a minimal repro case for
 
-https://github.com/jackpal/Android-Terminal-Emulator/issues/145
+https://github.com/linuxdroid/Android-Terminal-Emulator/issues/145
 
 Repro steps
 -----------

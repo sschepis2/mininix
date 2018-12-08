@@ -5,11 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/emulatorview/emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/emulatorview.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/intents/intents.iml" filepath="$PROJECT_DIR$/samples/intents/intents.iml" />
       <module fileurl="file://$PROJECT_DIR$/libtermexec/libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/libtermexec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mininix.iml" filepath="$PROJECT_DIR$/mininix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mininix3.iml" filepath="$PROJECT_DIR$/mininix3.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" filepath="$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/telnet/telnet.iml" filepath="$PROJECT_DIR$/samples/telnet/telnet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" />
+      <module fileurl="file://$PROJECT_DIR$/terminal/terminal.iml" filepath="$PROJECT_DIR$/terminal/terminal.iml" />
     </modules>
   </component>
 </project>
